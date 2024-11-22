@@ -1,0 +1,9 @@
+{
+    "id": "obsidian-prompt-manager",
+    "name": "Prompt Manager",
+    "version": "0.0.2",
+    "minAppVersion": "0.15.0",
+    "description": "Manage your prompts in a kanban board or list view.",
+    "author": "Ping",
+    "isDesktopOnly": false
+}

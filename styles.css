@@ -1,0 +1,61 @@
+/* styles.css */
+.prompt-toolbar {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.prompt-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.prompt-card {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.prompt-card:hover {
+    background: var(--background-modifier-hover);
+}
+
+.prompt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.prompt-header h3 {
+    margin: 0;
+}
+
+.prompt-details {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prompt-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prompt-list th,
+.prompt-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.prompt-list button {
+    margin: 0 4px;
+}
